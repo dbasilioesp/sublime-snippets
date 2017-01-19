@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+var ${1:Placeholder} = ${1:Placeholder} || {};
+
+${1:Placeholder}.${2:Class} = function () {
+	"use strict";
+	
+};
+
+${1:Placeholder}.${2:Class}.prototype = Object.create(${3:parentClass});
+${1:Placeholder}.${2:Class}.prototype.constructor = ${1:Placeholder}.${2:Class};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>class</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
